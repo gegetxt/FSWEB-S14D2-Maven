@@ -1,22 +1,22 @@
 import org.example.model.*;
-import org.example.model.enums.LampType;
-import org.example.model.enums.PaintColor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-
+import org.example.model.enums.LampType;
+import org.example.model.enums.PaintColor;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.lang.reflect.Field;
-
+import org.example.model.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.instanceOf;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ExtendWith(ResultAnalyzer.class)
-public class MainTest {
+public class
+MainTest {
 
     private Lamp lamp;
     private Bed bed;
